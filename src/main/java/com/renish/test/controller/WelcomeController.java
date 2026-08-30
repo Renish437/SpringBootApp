@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class WelcomeController {
     @GetMapping
     public ResponseEntity<String> welcome(){
-        return ResponseEntity.ok("Welcome to spring boot app");
+        return ResponseEntity.ok("Welcome to renish to spring boot app");
     }
 }
